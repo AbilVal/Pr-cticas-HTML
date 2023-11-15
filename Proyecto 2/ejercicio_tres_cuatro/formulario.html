@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de Pedido - Pizza Planeta</title>
+</head>
+
+<body>
+
+    <h1>Formulario de Pedido</h1>
+    
+    <form action="procesar_pedido.html" method="post"> <!-- Página ficticia -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="direccion">Dirección de entrega:</label><br>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="promocion">Selecciona la promoción:</label><br>
+        <select id="promocion" name="promocion">
+            <option value="comboFamiliar">Combo Familiar</option>
+            <option value="especialCarnivoro">Especial Carnívoro</option>
+            <option value="vegetarianaGourmet">Vegetariana Gourmet</option>
+        </select><br><br>
+
+        <button type="submit">Realizar Pedido</button>
+    </form>
+
+    <br><h3>Acerca de</h3>
+    <p>¡Bienvenido a Pizza Planeta! Estamos ubicados en el Patio de Colorines en Juchitán de Zaragoza, Oaxaca.</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.510166318845!2d-95.03113742457586!3d16.44968548428634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8595551c12cb3ae5%3A0x4410e79059ddbd78!2sPatio%20de%20Colorines!5e0!3m2!1ses-419!2smx!4v1699858503335!5m2!1ses-419!2smx" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <p><a href="index.html">Volver a Ofertas</a></p>
+
+</body>
+
+</html>
